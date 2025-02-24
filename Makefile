@@ -22,3 +22,9 @@ blocking-connection-server:
 
 blocking-connection-client:
 	python3 programs/blocking-connection/blocking-connection-client.py
+
+blocking-serialization-server:
+	python3 programs/serialization/blocking-connection-serial-server.py
+
+blocking-serialization-client:
+	python3 programs/serialization/blocking-connection-serial-client.py

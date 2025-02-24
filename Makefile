@@ -34,3 +34,9 @@ not-connection-blocking-server:
 
 not-connection-blocking-client:
 	python3 programs/not-connection-blocking/not-connection-blocking-client.py
+
+threads-server:
+	python3 programs/threads/multithreads-server.py
+
+threads-client:
+	python3 programs/threads/multithreads-client.py

@@ -7,5 +7,5 @@ with open('documento.pdf', 'rb') as f:
 serialized_data = pickle.dumps(pdf_data)
 # Enviar el contenido serializado al servidor
 response = requests.post('http://localhost:8080/prueba_serializacion',
-files={'file': ('documento.pdf', serialized_data)})
+files={'file': ('prueba.pdf', serialized_data)})
 print(response.text)
